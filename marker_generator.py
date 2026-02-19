@@ -25,7 +25,7 @@ def generate_aruco_marker(marker_id, output_filename, size=189, border=1):
     svg_image.save()
 
 if __name__ == "__main__":
-    marker_ids = [12, 88, 89]
+    marker_ids = [12, 14, 20, 88, 89]
     
     marker_sizes = [4,5]
     
